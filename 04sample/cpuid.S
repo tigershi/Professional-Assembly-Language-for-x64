@@ -1,4 +1,8 @@
 #cpuid.s Sample program to extract the processor Vendor ID
+#build and output(编译和输出)
+#as -o cpuid.o cpuid.S
+#ld -o cpuid cpuid.o
+#
 .section .data
 output:
 .ascii "The processor Vendor ID is 'xxxxxxxxxxxx'\n"

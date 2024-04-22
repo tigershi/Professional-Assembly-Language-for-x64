@@ -1,3 +1,5 @@
+#build and output(编译和输出)
+#as -o printf.o printf.S
 #ld -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o printf -lc printf.so
 .section .data
 output:

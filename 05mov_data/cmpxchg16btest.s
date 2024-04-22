@@ -1,4 +1,5 @@
 # cmpxchg8btest.s - An example of the cmpxchg8b instruction
+#build and output(编译和输出)
 #as -o cmpxchg16btest.o -gstabs cmpxchg16btest.s
 #ld -o cmpxchg16btest cmpxchg16btest.o
 .section .data

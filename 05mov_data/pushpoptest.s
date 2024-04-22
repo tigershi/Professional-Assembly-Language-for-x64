@@ -1,4 +1,7 @@
 # pushpop.s - An example of using the PUSH and POP instructions
+#build and output(编译和输出)
+# as -o pushpoptest.so pushpoptest.s
+# ld -o pushpoptest pushpoptest.so
 .section .data
 data:
 .int 125, 23

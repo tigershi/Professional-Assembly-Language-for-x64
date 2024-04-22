@@ -1,5 +1,7 @@
 
 # movtest3.s – Another example of using indexed memory locations
+#build and output(编译和输出)
+# as -o movtest.so movtest.S
 ##ld -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o movtest -lc movtest.so
 #note use the caller save register
 .section .data

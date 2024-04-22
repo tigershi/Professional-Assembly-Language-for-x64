@@ -1,4 +1,5 @@
 # bubble.s - An example of the XCHG instruction
+#build and output(编译和输出)
 #as -o bubbletest.o bubbletest.s
 #ld -o bubbletest bubbletest.o
 

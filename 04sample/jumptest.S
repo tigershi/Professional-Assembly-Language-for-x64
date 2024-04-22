@@ -1,3 +1,6 @@
+#build and output(编译和输出)
+#as -o jumptest.o jumptest.S
+#ld -o jumptest jumptest.o
 .section .text
 .globl _start
 _start:

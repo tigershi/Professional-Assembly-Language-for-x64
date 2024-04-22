@@ -1,5 +1,7 @@
 #this is a hello demo
-
+#build and output(编译和输出)
+#as -o hello.o hello.S
+#ld -o hello hello.o
 .section .data
 output:
    .ascii "hello world!\n"

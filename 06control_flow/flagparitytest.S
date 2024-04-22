@@ -1,9 +1,9 @@
 #parity flag test
-#编译和执行
+##build and output(编译和输出)
 # as -o flagparitytest.o flagparitytest.S 
 # ld -o flagparitytest flagparitytest.o
 #./flagparitytest 
-#输出结果
+#output
 # echo $?
 .section .text
 .globl _start

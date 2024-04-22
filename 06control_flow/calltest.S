@@ -1,4 +1,5 @@
 # it call test
+#as -o calltest.o calltest.S
 ##ld -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o calltest -lc calltest.so
 
 .section .data

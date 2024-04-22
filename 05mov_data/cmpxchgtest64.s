@@ -1,4 +1,7 @@
 # cmpxchgtest.s - An example of the cmpxchg instruction
+#build and output(编译和输出)
+#as -o cmpxchgtest64.o cmpxchgtest64.s
+#ld -o cmpxchgtest64 cmpxchgtest64.o
 .section .data
 data:
 .quad 100

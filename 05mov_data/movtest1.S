@@ -1,3 +1,6 @@
+#build and output(编译和输出)
+# as -o movtest1.so movtest1.S
+# ld -o movtest1 movtest1.so
 .section .data
 msg:
 .asciz "This is a test message"

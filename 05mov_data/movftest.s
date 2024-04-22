@@ -1,4 +1,5 @@
 #the float and double test
+#build and output(编译和输出)
 #as -o movftest.o movftest.s 
 #ld -o movftest movftest.o
 .section .data

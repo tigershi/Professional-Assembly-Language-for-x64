@@ -1,9 +1,9 @@
 #overflow flag test
-#编译和执行
+##build and output(编译和输出)
 # as -o flagoverflowtest.o flagoverflowtest.S 
 # ld -o flagoverflowtest flagoverflowtest.o
 # ./flagoverflowtest 
-# 从输出流中去结构 
+# output(从输出流中去结构) 
 # echo $?
 .section .text
 .globl _start

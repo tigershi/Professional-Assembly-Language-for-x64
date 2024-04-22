@@ -1,3 +1,6 @@
+#build and output(编译和输出)
+# as -o movtest5.so movtest5.S
+##ld -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o movtest5 -lc movtest5.so
 .section .data
 output:
 .asciz "The largest value is %d\n"

@@ -1,4 +1,7 @@
 # cmpxchg8btest.s - An example of the cmpxchg8b instruction
+#build and output(编译和输出)
+#as -o cmpxchg8btest.o cmpxchg8btest.s
+#ld -o cmpxchg8btest cmpxchg8btest.o
 .section .data
 data:
 .byte 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88
