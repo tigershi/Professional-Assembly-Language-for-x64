@@ -1,11 +1,9 @@
 # cpuidfile.s - An example of writing data to a file
-#as cpuidfile_x64.s -o cpuidfile_x64.o
-#ld -o cpuidfile_x64 cpuidfile_x64.o
-#./cpuidfile_x64
+.code64
 .section .data
 
 filename:
-   .asciz "cpuid.txt"
+   .asciz "cpuid2.txt"
 output:
    .asciz "The processor Vendor ID is 'xxxxxxxxxxxx'\n"
 
@@ -21,7 +19,7 @@ _start:
 
    movq $2, %rax
    movq $filename, %rdi
-   movq $01101, %rsi
+   movq $02101, %rsi
    movq $0644, %rdx
    syscall
    testq %rax, %rax
@@ -29,10 +27,10 @@ _start:
    
    movq %rax, %rbx
 
+   movq $1, %rax
    movq %rbx, %rdi
    movq $output, %rsi
    movq $42, %rdx
-   movq $1, %rax
    syscall
 
    testq %rax, %rax
